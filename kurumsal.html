@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kurumsal - Kahver Diyarı</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -26,20 +30,25 @@
         <ul class="logo">
           <li>
             <a href="">
-              <img src="./img/kahve-diyari.svg" alt="kahve-diyari-logo" />
+              <img
+                src="./kurumsal-img/kahve-diyari.svg"
+                alt="kahve-diyari-logo"
+              />
             </a>
           </li>
         </ul>
         <ul class="nav-right">
           <ul class="menus">
-            <li><a href="">Kurumsal</a></li>
-            <li><a href="">Şubelerimiz</a></li>
-            <li><a href="">Franchise</a></li>
-            <li><a href="">Konseptler</a></li>
-            <li><a href="">İletişim</a></li>
+            <li><a href="./kurumsal.html">Kurumsal</a></li>
+            <li>
+              <a href="./subelerimiz.html">Şubelerimiz</a>
+            </li>
+            <li><a href="./franchise.html">Franchise</a></li>
+            <li><a href="./konseptler.html">Konseptler</a></li>
+            <li><a href="./iletisim.html">İletişim</a></li>
           </ul>
           <a class="bar me-3" href="">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars d-flex align-items-center"></i>
             <strong class="ps-1">MENÜ</strong>
           </a>
           <a class="phone" href=""
@@ -62,8 +71,8 @@
     <header>
       <div class="container-header">
         <ul class="ana-kur d-flex align-items-end">
-          <li><a href="">Anasayfa&nbsp;</a></li>
-          <li><a href="">- Kurumsal</a></li>
+          <li><a href="./anasayfa.html">Anasayfa&nbsp;</a></li>
+          <li><a href="./kurumsal.html">- Kurumsal</a></li>
         </ul>
         <h1 class="ka-di">KAHVE DİYARI</h1>
         <h1 class="kur">KURUMSAL</h1>
@@ -82,7 +91,7 @@
             </p>
           </div>
           <div class="main1-right">
-            <img src="./img/main-right.png" alt="" />
+            <img src="./kurumsal-img/main-right.png" alt="" />
           </div>
         </div>
       </div>
@@ -151,14 +160,19 @@
           </div>
           <div class="col-6 col-md-12 col-lg-6 r1">
             <img
-              src="./img/üretim tesisi.jpg"
+              src="./kurumsal-img/üretim tesisi.jpg"
               width="100%"
               height="300"
               alt=""
             />
           </div>
           <div class="col-6 col-md-12 col-lg-6 l2">
-            <img src="./img/sevkiyat.jpg" width="100%" height="300" alt="" />
+            <img
+              src="./kurumsal-img/sevkiyat.jpg"
+              width="100%"
+              height="300"
+              alt=""
+            />
           </div>
           <div class="col-6 col-md-12 col-lg-6 r2">
             <div class="r2-text m-5">
@@ -177,7 +191,12 @@
         </div>
       </div>
       <div class="nerdeyiz">
-        <img src="./img/dünyada-nerdeyiz.png" width="50%" height="500" alt="" />
+        <img
+          src="./kurumsal-img/dünyada-nerdeyiz.png"
+          width="50%"
+          height="500"
+          alt=""
+        />
       </div>
       <div class="main4-con d-flex justify-content-center">
         <div class="main4 mt-5">
@@ -222,6 +241,57 @@
       </div>
     </main>
     <!-- MAİN -->
+    <div class="row">
+      <form class="col s12 offset-m3 mt-5">
+        <div class="row">
+          <div class="form-headline col s5">Bir sorunuz mu var?</div>
+        </div>
+        <div class="row">
+          <div class="form-title col s5">İletişim Formu</div>
+        </div>
+        <div class="row">
+          <div class="input-field col s5">
+            <input type="text" id="adSoyad" name="adSoyad" class="validate" />
+            <label for="adSoyad2">Adınız & Soyadınız*</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s5">
+            <input id="email" type="email" class="validate" />
+            <label for="email2">E-Posta*</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s5">
+            <input id="icon_telephone" type="tel" class="validate" />
+            <label for="icon_telephone2">Telefon*</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s5">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Mesajınız*</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s5">
+            <span
+              ><p style="color: red; font-family: Vag, sans-serif">
+                *Bu alanlar mutlaka doldurulmalıdır.
+              </p></span
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s5">
+            <button class="btn-large">
+              <a class="gönder" href="#">GÖNDER</a>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
     <!-- FOOTER -->
     <footer>
       <div class="footer-menu">
@@ -298,10 +368,10 @@
           <div class="mobil-uygulama">MOBİL UYGULAMA</div>
           <ul class="area-apps">
             <li style="margin-right: 10px">
-              <a href=""><img src="./img/app-store-1.jpg" alt="" /></a>
+              <a href=""><img src="./kurumsal-img/app-store-1.jpg" alt="" /></a>
             </li>
             <li>
-              <a href=""><img src="./img/app-store-2.jpg" alt="" /></a>
+              <a href=""><img src="./kurumsal-img/app-store-2.jpg" alt="" /></a>
             </li>
           </ul>
           <p
@@ -311,7 +381,7 @@
             YAKINDA
           </p>
 
-          <img src="./img/444-footer.svg" alt="" />
+          <img src="./kurumsal-img/444-footer.svg" alt="" />
         </div>
       </div>
     </footer>
@@ -323,10 +393,22 @@
         <span style="color: #00524d">Kahve Diyarı. Tüm Hakları Saklıdır!</span>
       </p>
       <a class="ms-auto" href="https://www.kahvediyari.com.tr/tr"
-        ><img src="./img/kahve-diyari-footer.svg" alt=""
+        ><img src="./kurumsall-img/kahve-diyari-footer.svg" alt=""
       /></a>
     </div>
     <!--  -->
+    <a
+      class="online-refer"
+      href="https://www.benimdiyarim.com/"
+      title="ONLINE ALIŞVERİŞ"
+      target="_blank"
+      ><img
+        class="responsive-img"
+        src="https://www.kahvediyari.com.tr/images/online-tr.svg"
+        alt="ONLINE ALIŞVERİŞ"
+      />
+    </a>
+
     <!--  -->
     <!-- SCRİPT -->
     <script
